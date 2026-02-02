@@ -49,6 +49,12 @@ LWin & Enter::SendInput, ^{Enter}
 
 LWin & a::SendInput, ^a
 
+LWin & d::SendInput, ^d
+
+LWin & t::SendInput, ^t
+
 LWin & /::SendInput, ^/
 
 LWin & BS::SendInput, {Delete}
+
+LWin & LButton::SendInput, ^{LButton}
